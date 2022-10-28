@@ -1,0 +1,338 @@
+/*
+Theme Name: Storefront Child
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Automattic
+Author URI: https://woocommerce.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 4.1.3.1665402570
+Updated: 2022-10-10 11:49:30
+
+*/
+/*header og navigation*/
+
+.menu-toggle {
+    background-color: #E8BBD4 !important;
+    border: none !important;
+}
+
+.storefront-primary-navigation {
+    background-color: #E8BBD4;
+    padding-bottom: 50px;
+}
+
+.storefront-breadcrumb {
+    background-color: #f3dfcb;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-header {
+    height: 0 !important;
+}
+
+.storefront-primary-navigation {
+    height: 105px !important;
+}
+
+
+li a:hover {
+    color: white !important;
+    
+}
+
+.search-field {
+    background-color: #E8BBD4!important;
+    border-radius: 50px;
+}
+p {
+    color: rgb(61, 61, 61);
+}
+
+
+/*forside*/
+
+.forside1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.forsideh1 {
+    font-size: 80px;
+    color: black;
+    font-weight:bolder;
+}
+
+.forsideheader {
+    height: 200px;
+    width: 100vw;
+    background-image: url("img/flowers.jpg");  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overall-forside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.forsidecontent {
+    width: 100vw;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.forsidecontent1 {
+    background-image: url("img/Klatrehortensia.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.produkt1 {
+    background-color: #e8bbd4c0;
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forsidecontent2 {
+    background-image: url("img/aspidistra-elatior.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.produkt2 {
+    background-color: #e8bbd4c0;
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forsidecontent3 {
+    background-image: url("img/Japansk\ ahorn.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.produkt3 {
+    background-color: #e8bbd4c0;
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopbtn {
+    height: 70px;
+    width: 200px;
+    background-color: #f3dfcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    color:rgb(87, 87, 87);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shopbtn a:hover {
+    background-color: #E8BBD4;
+
+}
+
+/* Retur politik*/
+.returpolitik {
+    height: auto;
+    width: 100vw;
+}
+
+.returcontent {
+    width: 100vw;
+    height: auto;
+    background-image: url("img/flowers.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.returtext {
+    width: 80vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+/* Privatlivs politik*/
+
+.privatliv {
+    height: auto;
+    width: 100vw;
+}
+
+.privatlivcontent {
+    width: 100vw;
+    height: auto;
+    background-image: url("img/flowers.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.privatlivtext {
+    width: 80vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+/*Shop og cart*/
+
+.woocommerce-products-header__title, .entry-title {
+    height: 200px;
+    width: 100vw;
+    background-image: url("img/flowers.jpg");  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: black;
+    font-weight:bolder;
+}
+
+.woocommerce-info {
+    display: none;
+}
+
+.site-main {
+    background-color: rgba(255, 255, 255, 0.80);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-area {
+    background-image: url("img/flowers.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.wp-block-woocommerce-attribute-filter {
+    width: 25%;
+}
+
+.wc-block-attribute-filter__title {
+    width: auto !important;
+}
+.widget-area {
+    width: 1000px !important;
+    float: none;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.widget_block {
+    display: flex;
+    justify-content: center;
+}
+ 
+.button {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #f3dfcb;
+} 
+
+.button a:hover {
+    background-color: #E8BBD4 !important;
+}
+
+/*Store notice*/
+
+.woocommerce-store-notice__dismiss-link {
+    display: none !important;
+}
+
+
+.demo_store {
+    background-color: #f3dfcb;
+    color: navy;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive tilretninger */
+
+@media screen and (max-width: 1300px) {
+    .forsidecontent1, .forsidecontent2, .forsidecontent3 {
+        height: 400px;
+        width: 300px;
+
+    }
+    .forsidecontent {
+        gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .forsidecontent {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .forsidecontent1, .forsidecontent2, .forsidecontent3 {
+        height: 500px;
+        width: 400px;
+
+    }
+  }
